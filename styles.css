@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-h1{
+h1 {
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 900;
@@ -26,21 +26,21 @@ h1{
   padding: 8px 128px;
 }
 
-.header ul{
+.header ul {
   display: flex;
   gap: 16px;
 }
 
-.header img{
+.header img {
   margin-right: auto;
 }
 
-.header a{
+.header a {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-.header a:hover{
+.header a:hover {
   text-decoration: underline;
 }
 
@@ -51,7 +51,7 @@ h1{
   justify-content: space-between;
 }
 
-.subheading button{
+.subheading button {
   background-color: #3882F6;
   color: #E5E7EB;
   border-radius: 8px;
@@ -60,21 +60,21 @@ h1{
   font-weight: 900;
 }
 
-.subheading button:hover{
+.subheading button:hover {
   cursor: pointer;
   background-color: #0f6bff;
 }
 
-.subheading button:active{
+.subheading button:active {
   background-color: #0047b8;
 }
 
-.subheading p{
+.subheading p {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-.subheading .text{
+.subheading .text {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -82,3 +82,8 @@ h1{
   justify-content: start;
 }
 
+.winter-alert {}
+
+.square-container {}
+
+.winter-square {}
