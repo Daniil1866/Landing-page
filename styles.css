@@ -20,6 +20,19 @@ h1 {
   margin: 0;
 }
 
+h2{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 .header {
   display: flex;
   background-color: #1F2937;
@@ -69,11 +82,6 @@ h1 {
   background-color: #0047b8;
 }
 
-.subheading p {
-  font-size: 18px;
-  color: #E5E7EB;
-}
-
 .subheading .text {
   display: flex;
   flex-direction: column;
@@ -82,8 +90,27 @@ h1 {
   justify-content: start;
 }
 
-.winter-alert {}
+.winter-alert {
+  padding: 40px 0 60px;
+}
 
-.square-container {}
+.square-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 200px;
+}
 
-.winter-square {}
+.winter-square {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 150px;
+  text-align: center;
+}
+
+.winter-square p{
+color: #b7b7b7;
+}
+
+.winter-square img{
+  border-radius: 12px;
+}
