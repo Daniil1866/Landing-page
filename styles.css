@@ -42,6 +42,13 @@ button {
   font-weight: 900;
 }
 
+footer{
+  background-color: #1F2937;
+  text-align: center;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
 .header {
   display: flex;
   background-color: #1F2937;
