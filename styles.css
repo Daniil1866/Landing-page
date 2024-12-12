@@ -33,6 +33,15 @@ p {
   color: #E5E7EB;
 }
 
+button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 40px;
+  font-weight: 900;
+}
+
 .header {
   display: flex;
   background-color: #1F2937;
@@ -62,24 +71,6 @@ p {
   background-color: #1F2937;
   padding: 128px;
   justify-content: space-between;
-}
-
-.subheading button {
-  background-color: #3882F6;
-  color: #E5E7EB;
-  border-radius: 8px;
-  border: none;
-  padding: 10px 40px;
-  font-weight: 900;
-}
-
-.subheading button:hover {
-  cursor: pointer;
-  background-color: #0f6bff;
-}
-
-.subheading button:active {
-  background-color: #0047b8;
 }
 
 .subheading .text {
@@ -131,4 +122,45 @@ p {
   color: #1F2937;
   text-align: right;
   font-weight: 500;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 8px;
+  margin: 75px 140px;
+  padding: 40px 125px;
+}
+
+.call-motto {
+  color: #F9FAF8;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+}
+
+.call-text p {
+  color: #E5E7EB;
+  font-weight: 300;
+  margin: 0;
+}
+
+.call-button {
+  color: #E5E7EB;
+  border-radius: 8px;
+  border: 2px solid #E5E7EB;
+  padding: 10px 40px;
+  font-weight: 900;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #0f6bff;
+}
+
+button:active {
+  background-color: #0047b8;
 }
